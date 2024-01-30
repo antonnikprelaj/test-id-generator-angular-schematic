@@ -1,0 +1,16 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "project-name": {
+      "description": "A blank schematic.",
+      "factory": "./project-name/index#projectName"
+    }
+  },
+  "properties": {
+    "prefix": {
+      "type": "string",
+      "description": "Prefix of module name (Optional)",
+      "x-prompt": "Enter the module prefix:"
+    }
+  }
+}
